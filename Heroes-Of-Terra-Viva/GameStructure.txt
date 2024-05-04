@@ -1,0 +1,59 @@
+Heroes Of Terra Viva:
+  Form of the game: Console based RPG
+  Console game running in nested switch loops that serve like UI.
+  Every choice will be marked with numbers.
+  Mock Up of UI:
+
+1. Dungeons
+2. Character
+3. Inventory
+4. Quests
+5. Blacksmith
+6. Strategy
+666. Quit Game
+Choose your destination: 666|
+
+Congratulations! You can go to Hell.
+Escaping the game in:
+3
+2
+1
+
+1. Dungeons
+2. Character
+3. Inventory
+4. Quests
+5. Blacksmith
+6. Strategy
+666. Quit Game
+Choose your destination: quit|
+
+Error: Input can only be whole number from the above displayed range.
+
+
+The switch loop will always take integer as an input and it will show different Menus also built as switch loops.
+
+In detail mechanics:
+
+1. Dungeons will allow you to go on a mission in five different dungeons, each consisting of five different Endgame bosses you have to clean
+if you manage to get to the end. The strategy of combat you choose in tab 6. is really important.
+Each dungeon drops different loot of different level of quality ranging from common items + 0 to Legendary items + 99.
+
+2. Character allows you to check your level, equipped items and upgrade basic stats with gold as well as improve your skill levels with skill point you get with each level.
+
+3. Inventory will give you access to items sorted in 5 categories. Each category has 5 slots. and items fill in in FiFo order and they may be trashed unless equipped.
+Checking item in slots 1-5 gives you list of its stats as well as an ability to equip it.
+
+4. Quests gives you a list of 5 quest givers, each giving you quest of different difficulty based upon your Character Rank which is a sum of all your equipped items,
+increased stats and level. Quests are finished automatically after getting the item or finishing the dungeon.
+
+5. Blacksmith allows you to improve your gear from +0 all the way to +99 using gold and items dropped from dungeons.
+It also allows you to use enchanting scrolls to give up to 3 random bonuses
+to your gear and enchanting Rolls which change the bonuses. Blacksmith first asks you to navigate to
+an item and then you will have choice to either, upgrade the level, use scroll or use roll.
+The number of scrolls available will be shown as 2. Use Enchanting Scrolls(1 available) If you choose to
+upgrade level of item you will see amount of gold required and items you need as well as dungeon that drops them.
+
+6. Strategy is a place where you can upgrade your Manna pool, Manna regeneration and set order of skills you want to play in dungeons,
+which can result in different outcomes, such as freezing enemies for 3 turns at strategic times as it costs a lot of Manna.
+Manna pool and Manna regen are improved by consuming monsters that drop in dungeons and they give diminishing returns after high levels were achieved.
